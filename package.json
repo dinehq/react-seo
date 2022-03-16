@@ -1,0 +1,33 @@
+{
+  "name": "@dinehq/react-seo",
+  "version": "1.0.0",
+  "description": "react seo component",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "build:watch": "tsup --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinehq/react-seo.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "limichange",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dinehq/react-seo/issues"
+  },
+  "homepage": "https://github.com/dinehq/react-seo#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.40",
+    "react": "^17.0.2",
+    "tsup": "^5.12.1",
+    "typescript": "^4.6.2",
+    "vitest": "^0.6.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
+  }
+}
