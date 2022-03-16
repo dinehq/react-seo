@@ -1,5 +1,7 @@
 # @dinehq/react-seo
 
+[![CI](https://github.com/dinehq/react-seo/actions/workflows/ci.yml/badge.svg)](https://github.com/dinehq/react-seo/actions/workflows/ci.yml)
+
 ## Installation
 
 ```
