@@ -1,0 +1,1 @@
+# @dinehq/react-seo
