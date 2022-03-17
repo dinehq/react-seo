@@ -1,7 +1,13 @@
 // Vitest Snapshot v1
 
-exports[`Link changes the class when hovered 1`] = `
-<div>
-  SEO
-</div>
+exports[`create SEO component 1`] = `
+[
+  <title>
+    title
+  </title>,
+  <meta
+    content="description"
+    name="description"
+  />,
+]
 `;

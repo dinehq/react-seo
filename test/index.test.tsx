@@ -5,13 +5,14 @@ import SEO from '../src'
 function toJson(component: renderer.ReactTestRenderer) {
   const result = component.toJSON()
   expect(result).toBeDefined()
-  expect(result).not.toBeInstanceOf(Array)
   return result as renderer.ReactTestRendererJSON
 }
 
-test('Link changes the class when hovered', () => {
-  const component = renderer.create(<SEO title='http://antfu.me'></SEO>)
+test('create SEO component', () => {
+  const component = renderer.create(
+    <SEO title='title' description='description'></SEO>
+  )
 
-  let tree = toJson(component)
+  const tree = toJson(component)
   expect(tree).toMatchSnapshot()
 })
