@@ -5,7 +5,7 @@ export default defineConfig({
   splitting: false,
   sourcemap: true,
   clean: true,
-  format: ['cjs', 'esm', 'iife'],
+  format: ['cjs', 'esm'],
   legacyOutput: true,
   external: ['react', 'react-dom'],
   plugins: [],
