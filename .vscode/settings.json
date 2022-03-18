@@ -1,3 +1,11 @@
 {
-  "cSpell.words": ["dinehq", "iife", "limichange", "pnpm", "tsup", "vitest"]
+  "cSpell.words": [
+    "dinehq",
+    "iife",
+    "limichange",
+    "pnpm",
+    "pnpx",
+    "tsup",
+    "vitest"
+  ]
 }
